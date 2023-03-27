@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href ="./style.css">
+    <script type="text/javascript" src="/jquery/jquery-3.6.0.min.js"></script>
+    <title>Weather Report</title>
+</head>
+<body>
+    <header>
+        <h1 class="header">Interested in Today's Weather?</h1>
+    </header>
+    <div class = "city-search">
+        <h2 class = "search-title">Type in a City Name</h2>
+    </div>
+    <div class = "row">
+        <input id = "search-content" type = "search" id="form1" class ="search-bar-text" />
+    </div>
+    <div class = "row btn-class">
+        <button id="submit-search" class="btn btn-primary btn-class" type="submit">Search</button>
+    </div>
+    <div id="search-history" class="row btn-class-top buttons">
+    </div>
+    <div class ="col-12">
+        <div class ="row">
+            <div id="daily"></div>
+            <div id="forecast-5" class = "row five-day-forecast"></div>
+        </div>
+    </div>
+    
+    <script src = ./script.js></script>
+</body>
+</html>
